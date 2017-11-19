@@ -1,0 +1,39 @@
+{
+  "name": "order-matching",
+  "version": "1.0.0",
+  "description": "order matching FYP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SodiumOH/order-matching.git"
+  },
+  "keywords": [
+    "order-matching"
+  ],
+  "author": "Bian Yongyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SodiumOH/order-matching/issues"
+  },
+  "homepage": "https://github.com/SodiumOH/order-matching#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "http-signature": "^1.2.0",
+    "https": "^1.0.0",
+    "moment": "^2.18.1",
+    "mysql2": "^1.4.0",
+    "nodemailer": "^4.1.1",
+    "redis": "^2.8.0",
+    "regression": "^2.0.0",
+    "request": "^2.81.0",
+    "sequelize": "^4.4.3",
+    "sshpk": "^1.13.1"
+  }
+}

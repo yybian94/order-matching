@@ -1,0 +1,10 @@
+runtime: nodejs
+env: flex
+env_variables:
+  SQL_USER: root
+  SQL_PASSWORD: password
+  SQL_DATABASE: dazzling-reach-176517:asia-east1:matched-orders
+  INSTANCE_CONNECTION_NAME: dazzling-reach-176517:asia-east1:matched-orders
+  SQL_CLIENT: mysql
+beta_settings:
+  cloud_sql_instances: dazzling-reach-176517:asia-east1:matched-orders
